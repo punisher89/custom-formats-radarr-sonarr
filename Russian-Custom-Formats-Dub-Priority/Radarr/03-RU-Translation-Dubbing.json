@@ -8,7 +8,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)(?:Продубляж|ПроДубляж|ProDubliazh|ProDyblaj|Produblazh|ProDublyazh|профессиональн\\w*[ ._-]?дубляж|дублированн\\w*|дубляж|(?<![A-Za-z0-9])(?:RUS[ ._-]?DUB|RUSSIAN[ ._-]?DUB|DUB[ ._-]?RUS|DUBBED|DUBBING)(?![A-Za-z0-9]))"
+        "value": "(?i)(?:Movie[ ._-]?Dalen(?:[ ._-]?(?:Studios?|Dub))?|Cine[ ._-]?Lab(?:[ ._-]?Sound[ ._-]?Mix)?|The[ ._-]?Kitchen[ ._-]?Russia|Продубляж|ПроДубляж|ProDubliazh|ProDyblaj|Produblazh|ProDublyazh|профессиональн\\w*[ ._-]?дубляж|дублированн\\w*|дубляж|(?<![A-Za-z0-9])(?:RUS[ ._-]?DUB|RUSSIAN[ ._-]?DUB|DUB[ ._-]?RUS|DUBBED|DUBBING)(?![A-Za-z0-9]))"
       }
     }
   ]
