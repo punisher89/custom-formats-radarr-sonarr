@@ -19,7 +19,7 @@ MovieDalen, The Kitchen Russia, CineLab SoundMix и ПроДубляж доба�
 - `RU - Russian Language`: Servarr определил язык как Russian.
 - `RU - Russian Title or Studio Fallback`: резервный путь — язык не распознан как Russian, но найден явный русский аудиомаркер или известная российская студия.
 
-Рекомендуемый Minimum Custom Format Score: `10000`. Маркеры только субтитров RUS SUB / Russian Subtitles не используются как подтверждение русской аудиодорожки.
+Рекомендуемый Minimum Custom Format Score: `10000`. Отдельное слово `DUB` также считается русским аудиомаркером — это удобный эвристический признак для названий вроде `Dub + AVO`, но он может ошибочно пропустить дубляж на другом языке. Маркеры только субтитров `RUS SUB` / `Russian Subtitles` не используются как подтверждение русской аудиодорожки.
 
 Рекомендуемый Upgrade Until Custom Format Score: `11000`; Allow Upgrades включить.
 
