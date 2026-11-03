@@ -5,7 +5,7 @@
 ## Включено
 - Русский язык по метаданным Servarr и явные RUS/RUSSIAN/RU AUDIO маркеры.
 - Сериальные/стриминговые команды: LostFilm, NewStudio, AlexFilm, TVShows, BaibaKo, Jaskier, ColdFilm, HDRezka Studio, ViruseProject, NewComers, RuDub, LE-Production, Novamedia, Ultradox, WestFilm, Dragon Money Studio и другие.
-- Студии дубляжа: Red Head Sound, Невафильм, Пифагор, SDI Media, VSI Moscow, Мосфильм, ПроДубляж (ProDubliazh / ProDyblaj) и другие.
+- Студии дубляжа: MovieDalen, The Kitchen Russia, CineLab SoundMix, ПроДубляж (ProDubliazh / ProDyblaj), Red Head Sound, Невафильм, Пифагор, SDI Media, VSI Moscow, Мосфильм и другие.
 - Аниме-озвучка: AniLibria, AniDub, AniMaunt, AniLiberty, SHIZA Project и другие.
 - Классические и авторские переводы.
 - Дубляж, профессиональный MVO/DVO, обычный MVO/DVO, одноголосый.
@@ -18,6 +18,9 @@
 
 ## 4K
 2160p WEB-DL и UHD Blu-ray включаются отдельно в Quality Profile. При необходимости добавьте Remux-2160p.
+
+## Примечание по Bravo Records
+Официальный сайт Bravo Records описывает дубляж иностранных фильмов на грузинский язык. Поэтому Bravo Records не включён в русские студийные маркеры: иначе релиз с грузинской дорожкой мог бы ошибочно считаться русским.
 
 ## Ограничения
 Распознавание основано на метаданных и названии релиза. Форматы не анализируют реальную аудиодорожку до загрузки; название студии — подсказка, но не гарантия состава дорожек. Проверяйте первые загрузки через MediaInfo.
