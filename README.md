@@ -3,7 +3,7 @@
 Два отдельных набора Custom Formats с поддержкой русской озвучки и 4K/UHD.
 
 ## Russian Custom Formats 2026
-Полный универсальный набор: русский язык, маркеры релизов, студии сериалов и дубляжа, аниме, классические переводы, HDR, Dolby Vision, HDR10+, Atmos и DTS.
+Полный универсальный набор: русский язык, маркеры релизов, студии сериалов и дубляжа (включая ПроДубляж), аниме, классические переводы, HDR, Dolby Vision, HDR10+, Atmos и DTS.
 
 - [Инструкция](./Russian-Custom-Formats-2026/README-RU.md)
 - [Оценки](./Russian-Custom-Formats-2026/scores.csv)
@@ -11,7 +11,7 @@
 - [Sonarr JSON](./Russian-Custom-Formats-2026/Sonarr/)
 
 ## Russian Custom Formats — Dub Priority
-Альтернативный набор без аниме с приоритетом: дубляж → профессиональный MVO → профессиональный DVO → обычный MVO → обычный DVO → одноголосый/авторский перевод.
+Альтернативный набор без аниме, включающий ПроДубляж, с приоритетом: дубляж → профессиональный MVO → профессиональный DVO → обычный MVO → обычный DVO → одноголосый/авторский перевод.
 
 - [Инструкция](./Russian-Custom-Formats-Dub-Priority/README-RU.md)
 - [Оценки](./Russian-Custom-Formats-Dub-Priority/scores.csv)

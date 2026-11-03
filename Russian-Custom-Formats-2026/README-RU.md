@@ -5,7 +5,7 @@
 ## Включено
 - Русский язык по метаданным Servarr и явные RUS/RUSSIAN/RU AUDIO маркеры.
 - Сериальные/стриминговые команды: LostFilm, NewStudio, AlexFilm, TVShows, BaibaKo, Jaskier, ColdFilm, HDRezka Studio, ViruseProject, NewComers, RuDub, LE-Production, Novamedia, Ultradox, WestFilm, Dragon Money Studio и другие.
-- Студии дубляжа: Red Head Sound, Невафильм, Пифагор, SDI Media, VSI Moscow, Мосфильм и другие.
+- Студии дубляжа: Red Head Sound, Невафильм, Пифагор, SDI Media, VSI Moscow, Мосфильм, ПроДубляж (ProDubliazh / ProDyblaj) и другие.
 - Аниме-озвучка: AniLibria, AniDub, AniMaunt, AniLiberty, SHIZA Project и другие.
 - Классические и авторские переводы.
 - Дубляж, профессиональный MVO/DVO, обычный MVO/DVO, одноголосый.
