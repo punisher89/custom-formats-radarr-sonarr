@@ -3,7 +3,7 @@
 Универсальный набор Custom Formats для Radarr и Sonarr.
 
 ## Включено
-- Русский язык по метаданным Servarr и явные RUS/RUSSIAN/RU AUDIO маркеры.
+- Русский язык по метаданным Servarr и явные RUS/RUSSIAN/RU AUDIO маркеры; отдельное слово `DUB` также принимается как эвристический русский аудиомаркер (возможны ложные совпадения с дубляжом на другом языке).
 - Сериальные/стриминговые команды: LostFilm, NewStudio, AlexFilm, TVShows, BaibaKo, Jaskier, ColdFilm, HDRezka Studio, ViruseProject, NewComers, RuDub, LE-Production, Novamedia, Ultradox, WestFilm, Dragon Money Studio и другие.
 - Студии дубляжа: MovieDalen, The Kitchen Russia, CineLab SoundMix, ПроДубляж (ProDubliazh / ProDyblaj), Red Head Sound, Невафильм, Пифагор, SDI Media, VSI Moscow, Мосфильм и другие.
 - Аниме-озвучка: AniLibria, AniDub, AniMaunt, AniLiberty, SHIZA Project и другие.
