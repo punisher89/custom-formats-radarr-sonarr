@@ -1,0 +1,15 @@
+{
+  "name": "RU - Dubbing Studio Bonus",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Recognised dubbing studio (specific names only)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9А-Яа-яЁё])(?:Red[ ._-]?Head[ ._-]?Sound|Neva[ ._-]?Film|Невафильм|Pifagor|Пифагор|SDI[ ._-]?Media|VSI[ ._-]?Moscow|Videofilm(?:[ ._-]?International)?|Mosfilm(?:[ ._-]?Master)?|Мосфильм(?:[ ._-]?Мастер)?|SV[ ._-]?Dubl|СВ[ ._-]?Дубль|Soyuz[ ._-]?Dubl(?:yazh)?|Союз[ ._-]?Дубляж|Союздубляж|Dublyazhnaya|Дубляжная|Blackbird[ ._-]?Sound|Voize|Kupi[ ._-]?Golos|Купи[ ._-]?Голос|Rex[ ._-]?Square|Рексквер|Studio[ ._-]?Landok|Студия[ ._-]?Лендок|Cinema[ ._-]?US|CINEMAUS|Продубляж|ПроДубляж|ProDubliazh|ProDyblaj|Produblazh|ProDublyazh|Movie[ ._-]?Dalen(?:[ ._-]?(?:Studios?|Dub))?|Cine[ ._-]?Lab(?:[ ._-]?Sound[ ._-]?Mix)?|The[ ._-]?Kitchen[ ._-]?Russia|Studio[ ._-]?DEEP|DEEP[ ._-]?Studio)(?![A-Za-z0-9А-Яа-яЁё])"
+      }
+    }
+  ]
+}

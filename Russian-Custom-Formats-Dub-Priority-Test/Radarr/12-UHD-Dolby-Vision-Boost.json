@@ -1,0 +1,24 @@
+{
+  "name": "UHD - Dolby Vision Boost",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Dolby Vision",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\b(dv|dovi|dolby[ .]?v(ision)?)\\b"
+      }
+    },
+    {
+      "name": "2160p resolution marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\b2160p\\b"
+      }
+    }
+  ]
+}

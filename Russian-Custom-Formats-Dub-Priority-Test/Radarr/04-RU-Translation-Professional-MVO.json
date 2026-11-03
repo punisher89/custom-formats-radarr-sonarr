@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation - Professional MVO",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Professional MVO marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:профессиональн\\w*[ ._-]?многоголос\\w*|проф[ ._-]?многоголос\\w*|professional[ ._-]?mvo|(?<![A-Za-z0-9])PMVO(?![A-Za-z0-9]))"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation - Single Voiceover",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Single voiceover marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:одноголос\\w*|авторск\\w*[ ._-]?перевод|single[ ._-]?voice[ ._-]?over|(?<![A-Za-z0-9])one[ ._-]?voice(?![A-Za-z0-9])|Гоблин|Дмитрий[ ._-]?Пучков|Андрей[ ._-]?Гаврилов|Юрий[ ._-]?Сербин|Алексей[ ._-]?Михал[её]в|Василий[ ._-]?Горчаков|Володарский|Живов)"
+      }
+    }
+  ]
+}

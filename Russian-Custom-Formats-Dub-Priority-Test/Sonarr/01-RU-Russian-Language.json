@@ -1,0 +1,24 @@
+{
+  "name": "RU - Russian Language",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Russian",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 11
+      }
+    },
+    {
+      "name": "Exclude explicit Russian subtitle labels",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:\\bSUB(?:S|TITLE|TITLES)?[ ._-]*[\\(\\[\\{]?[ ._-]*(?:RUS|RUSSIAN|RU)\\b|\\b(?:RUS|RUSSIAN|RU)[ ._-]*[\\)\\]\\}]?[ ._-]*SUB(?:S|TITLE|TITLES)?\\b)"
+      }
+    }
+  ]
+}
