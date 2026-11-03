@@ -1,0 +1,15 @@
+{
+  "name": "RU - Dubbing Studios",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Russian dubbing studios",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9А-Яа-яЁё])(?:Red[ ._-]?Head[ ._-]?Sound|RHS|Neva[ ._-]?Film|Невафильм|Pifagor|Пифагор|SDI[ ._-]?Media|VSI[ ._-]?Moscow|Videofilm(?:[ ._-]?International)?|Mosfilm(?:[ ._-]?Master)?|Мосфильм(?:[ ._-]?Мастер)?|SV[ ._-]?Dubl|СВ[ ._-]?Дубль|Soyuz[ ._-]?Dubl(?:yazh)?|Союз[ ._-]?Дубляж|Союздубляж|Dublyazhnaya|Дубляжная|Blackbird[ ._-]?Sound|DEEP|Voize|Nota|Нота|Kupi[ ._-]?Golos|Купи[ ._-]?Голос|Rex[ ._-]?Square|Рексквер|Studio[ ._-]?Landok|Студия[ ._-]?Лендок|Cinema[ ._-]?US|CINEMAUS)(?![A-Za-z0-9А-Яа-яЁё])"
+      }
+    }
+  ]
+}

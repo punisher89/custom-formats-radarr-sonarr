@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation - MVO",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "MVO marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)^(?!.*(?:профессиональн\\w*[ ._-]?многоголос\\w*|проф[ ._-]?многоголос\\w*|professional[ ._-]?mvo|(?<![A-Za-z0-9])PMVO(?![A-Za-z0-9]))).*?(?:многоголос\\w*|(?<![A-Za-z0-9])MVO(?![A-Za-z0-9])).*$"
+      }
+    }
+  ]
+}

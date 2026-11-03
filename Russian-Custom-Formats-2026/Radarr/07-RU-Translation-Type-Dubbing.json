@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation Type - Dubbing",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Dubbing",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:профессиональн\\w*[ ._-]?дубляж|дублированн\\w*|дубляж|(?<![A-Za-z0-9])(?:RUS[ ._-]?DUB|RUSSIAN[ ._-]?DUB|DUB[ ._-]?RUS|DUBBED|DUBBING)(?![A-Za-z0-9]))"
+      }
+    }
+  ]
+}

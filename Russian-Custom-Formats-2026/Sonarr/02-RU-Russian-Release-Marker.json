@@ -1,0 +1,15 @@
+{
+  "name": "RU - Russian Release Marker",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Russian release markers",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9А-Яа-яЁё])(?:RUSSIAN[ ._-]?(?:AUDIO|DUB|DUBBED)|RUS[ ._-]?(?:AUDIO|DUB|DUBBED)|RU[ ._-]?AUDIO|DUB[ ._-]?RUS|RUSSIAN(?![ ._-]*(?:SUBS?|SUBBED|SUBTITLES)\\b)|RUS(?![ ._-]*(?:SUBS?|SUBBED|SUBTITLES)\\b))(?![A-Za-z0-9А-Яа-яЁё])|русск(?:ий|ая|ое|ие)[ ._-]?(?:звук|озвучк\\w*|дорожк\\w*)|русская[ ._-]?(?:озвучка|дорожка)|(?:профессиональн\\w*[ ._-]?)?дубляж|дублированн\\w*"
+      }
+    }
+  ]
+}

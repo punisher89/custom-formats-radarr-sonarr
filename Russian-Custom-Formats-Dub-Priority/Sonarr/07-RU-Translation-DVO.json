@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation - DVO",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "DVO marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)^(?!.*(?:профессиональн\\w*[ ._-]?двухголос\\w*|проф[ ._-]?двухголос\\w*|professional[ ._-]?dvo|(?<![A-Za-z0-9])PDVO(?![A-Za-z0-9]))).*?(?:двухголос\\w*|(?<![A-Za-z0-9])DVO(?![A-Za-z0-9])).*$"
+      }
+    }
+  ]
+}

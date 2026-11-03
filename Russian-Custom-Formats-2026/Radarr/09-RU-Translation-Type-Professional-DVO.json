@@ -1,0 +1,15 @@
+{
+  "name": "RU - Translation Type - Professional DVO",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Professional DVO",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:профессиональн\\w*[ ._-]?двухголос\\w*|проф[ ._-]?двухголос\\w*|professional[ ._-]?dvo|(?<![A-Za-z0-9])PDVO(?![A-Za-z0-9]))"
+      }
+    }
+  ]
+}

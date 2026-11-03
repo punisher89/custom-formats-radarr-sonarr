@@ -1,0 +1,15 @@
+{
+  "name": "RU - Classic & Author Voiceover",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Russian classic / author translations",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9А-Яа-яЁё])(?:Кубик[ ._-]?в[ ._-]?Кубе|Кураж[ ._-]?Бамбей|Гоблин|Дмитрий[ ._-]?Пучков|Андрей[ ._-]?Гаврилов|Юрий[ ._-]?Сербин|Василий[ ._-]?Горчаков|Алексей[ ._-]?Михал[её]в|Володарский|Живов)(?![A-Za-z0-9А-Яа-яЁё])"
+      }
+    }
+  ]
+}
