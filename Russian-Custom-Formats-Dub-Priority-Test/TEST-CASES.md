@@ -8,7 +8,7 @@
 | 2 | `Film 2025 RUS DUB 1080p WEB-DL` | RU fallback + Dubbing |
 | 3 | `Film 2025 RUSSIAN AUDIO 1080p WEB-DL` | RU fallback |
 | 4 | `Film 2025 French Dub 1080p WEB-DL` | Не проходит RU gate |
-| 5 | `Film 2025 German Dub 1080p WEB-DL` | Не проходит RU gate |
+| 5 | `Film 2025 German Dub 1080p WEB-DL` / `Film 2025 French + Dub` | Не проходит RU gate |
 | 6 | `Film 2025 WEB-DL Sub (Rus, Eng)` | Не проходит: только субтитры |
 | 7 | `Star Trek Deep Space Nine S01E01 1080p WEB-DL` | DEEP не считается студией |
 | 8 | `Film 2025 ProDyblaj 1080p WEB-DL` | RU gate + Dubbing + Studio Bonus |
