@@ -1,6 +1,6 @@
 {
   "name": "Audio - DTS X",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "DTS:X",

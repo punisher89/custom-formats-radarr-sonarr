@@ -1,6 +1,6 @@
 {
   "name": "RU - Dub Source Hint",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Explicit DUB or Russian dubbing label is required",
@@ -17,7 +17,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)(?:КиноПоиск[ ._-]?HD|Kinopoisk[ ._-]?HD|iTunes|Blu[ ._-]?Ray|(?:Blu[ ._-]?Ray|BD)[ ._-]?CEE|CEE[ ._-]?(?:Blu[ ._-]?Ray|BD))"
+        "value": "(?i)(?:(?:КиноПоиск[ ._-]?HD|Kinopoisk[ ._-]?HD|iTunes|Blu[ ._-]?Ray|(?:Blu[ ._-]?Ray|BD)[ ._-]?CEE|CEE[ ._-]?(?:Blu[ ._-]?Ray|BD))|(?<![A-Za-z0-9])RU[ ._-]+Dub[ ._-]+Source[ ._-]+Hint(?![A-Za-z0-9]))"
       }
     },
     {

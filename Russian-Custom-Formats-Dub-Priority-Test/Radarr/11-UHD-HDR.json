@@ -1,6 +1,6 @@
 {
   "name": "UHD - HDR",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "DV with HDR10 fallback",

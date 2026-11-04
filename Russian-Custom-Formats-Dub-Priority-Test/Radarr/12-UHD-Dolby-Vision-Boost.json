@@ -1,6 +1,6 @@
 {
   "name": "UHD - Dolby Vision Boost",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Dolby Vision",

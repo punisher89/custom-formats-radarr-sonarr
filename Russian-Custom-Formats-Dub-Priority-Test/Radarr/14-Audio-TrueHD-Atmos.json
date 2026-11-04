@@ -1,6 +1,6 @@
 {
   "name": "Audio - TrueHD Atmos",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "TrueHD",
