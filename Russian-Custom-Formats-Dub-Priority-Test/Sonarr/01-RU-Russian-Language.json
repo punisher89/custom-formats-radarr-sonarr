@@ -19,6 +19,15 @@
       "fields": {
         "value": "(?i)(?:\\bSUB(?:S|TITLE|TITLES)?[ ._-]*[\\(\\[\\{]?[ ._-]*(?:RUS|RUSSIAN|RU)\\b|\\b(?:RUS|RUSSIAN|RU)[ ._-]*[\\)\\]\\}]?[ ._-]*SUB(?:S|TITLE|TITLES)?\\b)"
       }
+    },
+    {
+      "name": "Do not reapply language score after its saved label is present",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9])RU[ ._-]+Russian[ ._-]+Language(?![A-Za-z0-9])"
+      }
     }
   ]
 }
