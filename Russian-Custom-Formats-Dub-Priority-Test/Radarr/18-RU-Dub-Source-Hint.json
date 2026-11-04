@@ -17,7 +17,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)(?:КиноПоиск[ ._-]?HD|Kinopoisk[ ._-]?HD|iTunes|(?:Blu[ ._-]?Ray|BD)[ ._-]?CEE|CEE[ ._-]?(?:Blu[ ._-]?Ray|BD))"
+        "value": "(?i)(?:КиноПоиск[ ._-]?HD|Kinopoisk[ ._-]?HD|iTunes|Blu[ ._-]?Ray|(?:Blu[ ._-]?Ray|BD)[ ._-]?CEE|CEE[ ._-]?(?:Blu[ ._-]?Ray|BD))"
       }
     },
     {
