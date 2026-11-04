@@ -27,15 +27,15 @@
 
 В Radarr: **Settings → Media Management → Movie Naming**. В Sonarr: **Settings → Media Management → Episode Naming**.
 
-Добавь токен `{[Custom Formats]}` в шаблон имени файла. Не нужно заменять весь свой шаблон: достаточно вставить этот токен в удобное место, например перед блоком качества.
+Добавь именно токен `{Custom Formats}` (без квадратных скобок внутри фигурных) в шаблон имени файла. Не нужно заменять весь свой шаблон: достаточно вставить его в удобное место, например перед блоком качества. Если нужны квадратные скобки вокруг списка форматов, записывай `[{Custom Formats}]`.
 
 Пример для Radarr:
 
 ```
-{Movie CleanTitle} ({Release Year}) {[Custom Formats]} {[Quality Full]} {[MediaInfo VideoDynamicRangeType]} {[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{-Release Group}
+{Movie CleanTitle} ({Release Year}) {Custom Formats} {[Quality Full]} {[MediaInfo VideoDynamicRangeType]} {[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{-Release Group}
 ```
 
-Токен выводит только те Custom Formats, у которых включено **Include Custom Format when Renaming**. В тестовом наборе это включено для исходных 18 форматов. У `RU - Russian Language Archive` опция выключена намеренно: архивная метка не должна добавляться повторно.
+Токен выводит только те Custom Formats, у которых включено **Include Custom Format when Renaming**. В тестовом наборе это включено для исходных 18 форматов только после применения соответствующих JSON. У `RU - Russian Language Archive` опция выключена намеренно: архивная метка не должна добавляться повторно.
 
 ### Как устроено восстановление баллов
 
@@ -67,7 +67,7 @@
 ## Проверка
 
 1. Импортируй 19 JSON из соответствующей папки в тестовый Radarr/Sonarr.
-2. Включи `{[Custom Formats]}` в шаблоне переименования.
+2. Включи `{Custom Formats}` в шаблоне переименования.
 3. На исходном релизе проверь совпавшие форматы и сумму баллов.
 4. Переименуй один тестовый файл.
 5. Проверь новое имя через Interactive Search / `/api/v3/parse` (Radarr) или соответствующий Parse endpoint Sonarr.
