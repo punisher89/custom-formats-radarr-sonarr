@@ -1,6 +1,6 @@
 {
   "name": "RU - Translation - Dubbing",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Dubbing marker or trusted dubbing studio",

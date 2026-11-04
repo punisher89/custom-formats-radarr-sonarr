@@ -1,6 +1,6 @@
 {
   "name": "RU - Russian Language",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Russian",

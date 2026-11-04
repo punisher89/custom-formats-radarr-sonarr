@@ -1,6 +1,6 @@
 {
   "name": "RU - Translation - Single Voiceover",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Single voiceover marker",

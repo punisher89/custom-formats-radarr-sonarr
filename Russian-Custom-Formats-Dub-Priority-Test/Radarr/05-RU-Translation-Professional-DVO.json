@@ -1,6 +1,6 @@
 {
   "name": "RU - Translation - Professional DVO",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Professional DVO marker",

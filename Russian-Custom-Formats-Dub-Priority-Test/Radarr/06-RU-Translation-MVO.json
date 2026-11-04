@@ -1,6 +1,6 @@
 {
   "name": "RU - Translation - MVO",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "MVO marker",
