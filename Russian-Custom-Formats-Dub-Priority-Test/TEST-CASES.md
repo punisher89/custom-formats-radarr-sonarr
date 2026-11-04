@@ -28,4 +28,14 @@
 | 18 | `Film 2025 Dub (iTunes)` / `Film 2025 Dub + Blu-Ray` / `Film 2025 Dub + Blu-Ray CEE` / `Film 2025 Dub + BD CEE` / `Film 2025 Dub + Kinopoisk HD` | Source Hint +50; known foreign-language DUB is excluded |
 | 19 | `Film 2025 Blu-Ray 1080p` / `Film 2025 iTunes` / `Film 2025 Kinopoisk HD` | No RU gate and no Source Hint |
 
-Duplicate audit: `Мосфильм-Мастер` was already covered by `Мосфильм(?:[ ._-]?Мастер)?`; `Videofilm Int` was already catchable by `Videofilm` but is now written explicitly as an alias. `Flarrow Films` moved from the generic voiceover list to the dubbing-studio list, so it is not scored twice by both studio groups.
+## Проверка сохранения баллов после переименования
+
+| Этап | Имя / метка | Ожидаемое совпадение |
+|---|---|---|
+| До переименования | Исходный релиз с распознанным Russian language | `RU - Russian Language` +10000 |
+| После переименования | Имя содержит `RU - Russian Language` из токена `{[Custom Formats]}` | `RU - Russian Language Archive` +10000 |
+| Повторная проверка | То же переименованное имя | Сумма не меняется; архивный CF не добавляет свою метку в имя |
+
+Проверка на реальном файле обязательна: синтетические проверки не заменяют Radarr/Sonarr Parse и повторный импорт.
+
+Duplicate audit: `Мосфильм-Мастер` уже покрывался `Мосфильм(?:[ ._-]?Мастер)?`; `Videofilm Int` явно записан как алиас; `Flarrow Films` не должен одновременно получать бонус дубляжа и голосовой команды.
