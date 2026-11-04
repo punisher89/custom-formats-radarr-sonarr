@@ -18,3 +18,13 @@
 | 12 | `Film 2025 WEB-DL 2160p HDR` | Есть UHD HDR bonus |
 
 Для строки №1 в Interactive Search ожидается: 17-й fallback +10000, Dubbing +1000; языковой формат не должен совпадать из-за `Sub (Rus, Eng)`, обычный fallback не добавляет вторые +10000.
+
+| 13 | `Film 2025 Movie Dubbing 2160p WEB-DL` | RU fallback + Dubbing + Studio Bonus |
+| 14 | `Film 2025 CPI Films 1080p WEB-DL` / `Film 2025 CPIG 1080p WEB-DL` | RU fallback + Dubbing + Studio Bonus |
+| 15 | `Film 2025 Flarrow Films 1080p WEB-DL` | RU fallback + Dubbing + Studio Bonus; removed from generic voiceover bonus to avoid duplicate scoring |
+| 16 | `Film 2025 Videofilm Int 1080p WEB-DL` | RU fallback + Dubbing + Studio Bonus |
+| 17 | `Film 2025 Дубляж Ист-Вест 1080p WEB-DL` | RU fallback + Dubbing + Studio Bonus; bare `Ист-Вест` is not a match |
+| 18 | `Film 2025 Dub (iTunes)` / `Film 2025 Dub + Blu-Ray CEE` / `Film 2025 Dub + BD CEE` / `Film 2025 Dub + Kinopoisk HD` | Source Hint +50; known foreign-language DUB is excluded |
+| 19 | `Film 2025 Blu-Ray 1080p` / `Film 2025 iTunes` / `Film 2025 Kinopoisk HD` | No RU gate and no Source Hint |
+
+Duplicate audit: `Мосфильм-Мастер` was already covered by `Мосфильм(?:[ ._-]?Мастер)?`; `Videofilm Int` was already catchable by `Videofilm` but is now written explicitly as an alias. `Flarrow Films` moved from the generic voiceover list to the dubbing-studio list, so it is not scored twice by both studio groups.
