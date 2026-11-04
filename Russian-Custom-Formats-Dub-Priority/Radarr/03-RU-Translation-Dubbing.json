@@ -8,7 +8,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)(?:Movie[ ._-]?Dalen(?:[ ._-]?(?:Studios?|Dub))?|Cine[ ._-]?Lab(?:[ ._-]?Sound[ ._-]?Mix)?|The[ ._-]?Kitchen[ ._-]?Russia|Продубляж|ПроДубляж|ProDubliazh|ProDyblaj|Produblazh|ProDublyazh|профессиональн\\w*[ ._-]?дубляж|дублированн\\w*|дубляж|(?<![A-Za-z0-9])(?:RUS[ ._-]?DUB|RUSSIAN[ ._-]?DUB|DUB[ ._-]?RUS|DUB|DUBBED|DUBBING)(?![A-Za-z0-9]))"
+        "value": "(?i)(?:Movie[ ._-]?Dubbing|Flarrow[ ._-]?Films|CPI[ ._-]?Films|Video[ ._-]?Film[ ._-]?Int(?:ernational)?|Мосфильм[ ._-]?Мастер|Mosfilm[ ._-]?Master|Дубляж[ ._-]?Ист[ ._-]?Вест|Творческое[ ._-]?содружество[ ._-]?Ист[ ._-]?Вест|Movie[ ._-]?Dalen(?:[ ._-]?(?:Studios?|Dub))?|Cine[ ._-]?Lab(?:[ ._-]?Sound[ ._-]?Mix)?|The[ ._-]?Kitchen[ ._-]?Russia|Продубляж|ПроДубляж|ProDubliazh|ProDyblaj|Produblazh|ProDublyazh|профессиональн\\w*[ ._-]?дубляж|дублированн\\w*|дубляж|(?<![A-Za-z0-9])(?:RUS[ ._-]?DUB|RUSSIAN[ ._-]?DUB|DUB[ ._-]?RUS|DUB|DUBBED|DUBBING)(?![A-Za-z0-9]))"
       }
     }
   ]

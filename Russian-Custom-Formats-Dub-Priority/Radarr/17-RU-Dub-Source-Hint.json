@@ -1,0 +1,33 @@
+{
+  "name": "RU - Dub Source Hint",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Explicit DUB or Russian dubbing label is required",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?<![A-Za-z0-9])DUB(?:BED|BING)?(?![A-Za-z0-9])|дубляж|дублированн\\w*"
+      }
+    },
+    {
+      "name": "Recognised source: Kinopoisk HD, iTunes or Blu-ray",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:КиноПоиск[ ._-]?HD|Kinopoisk[ ._-]?HD|iTunes|Blu[ ._-]?Ray(?:[ ._-]?CEE)?|BD[ ._-]?CEE|CEE[ ._-]?(?:Blu[ ._-]?Ray|BD))"
+      }
+    },
+    {
+      "name": "Reject known foreign-language DUB",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:(?:French|German|Spanish|Italian|Polish|Czech|Portuguese|Brazilian|Ukrainian|Turkish|Japanese|Korean|Chinese|Mandarin|Cantonese|Hindi|Arabic|Dutch|Swedish|Danish|Norwegian|Finnish|Greek|Romanian|Hungarian|Serbian|Croatian|Bulgarian|Slovak|Slovenian|Estonian|Latvian|Lithuanian|Thai|Vietnamese|Indonesian|Malay|Persian|Farsi|Hebrew|Icelandic)\\b[ ._+-]*(?:audio[ ._+-]*)?DUB(?:BED|BING)?\\b|\\bDUB(?:BED|BING)?[ ._+-]*(?:audio[ ._+-]*)?(?:French|German|Spanish|Italian|Polish|Czech|Portuguese|Brazilian|Ukrainian|Turkish|Japanese|Korean|Chinese|Mandarin|Cantonese|Hindi|Arabic|Dutch|Swedish|Danish|Norwegian|Finnish|Greek|Romanian|Hungarian|Serbian|Croatian|Bulgarian|Slovak|Slovenian|Estonian|Latvian|Lithuanian|Thai|Vietnamese|Indonesian|Malay|Persian|Farsi|Hebrew|Icelandic)\\b)"
+      }
+    }
+  ]
+}
