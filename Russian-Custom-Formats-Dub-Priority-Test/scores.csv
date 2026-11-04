@@ -17,3 +17,4 @@ Custom Format;Score;Purpose
 "Audio - DTS HD Master Audio";"10";"DTS-HD MA"
 "RU - Dub Marker with Russian Subtitle Tag Fallback";"10000";"Special handling for DUB/known RU studio + Sub (Rus, Eng); rejects known foreign DUB"
 "RU - Dub Source Hint";"50";"Only with explicit DUB plus Kinopoisk HD, iTunes or CEE Blu-ray source; not a Russian-language gate"
+"RU - Russian Language Archive";"10000";"Restore the Russian-language gate score from its saved Custom Format label after file renaming; archive only, not a new release gate"
