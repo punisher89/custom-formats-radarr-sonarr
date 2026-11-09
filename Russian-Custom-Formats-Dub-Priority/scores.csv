@@ -16,6 +16,6 @@ Custom Format;Score;Purpose
 "Audio - TrueHD Atmos";"30";"Audio bonus"
 "Audio - DTS X";"20";"Audio bonus"
 "Audio - DTS HD Master Audio";"10";"Audio bonus"
-"UHD - DV without HDR fallback (WEB)";"-10000";"Optional compatibility penalty for DV-only WEB without HDR label"
+"UHD - DV without HDR fallback (WEB)";"-20000";"Optional compatibility penalty for DV-only WEB without HDR label"
 "RU - Explicit Official Dubbing Bonus";"100";"Only explicit official/licensed dubbing labels"
 "RU - Amateur Dubbing Penalty";"-150";"Only explicit fan/amateur dubbing labels"
