@@ -1,0 +1,42 @@
+{
+  "name": "UHD - DV without HDR fallback (WEB)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Dolby Vision label",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\b(?:DV|DoVi|Dolby[ ._-]?V(?:ision)?)\\b"
+      }
+    },
+    {
+      "name": "WEB source only",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\bWEB[ ._-]?(?:DL|RIP)\\b"
+      }
+    },
+    {
+      "name": "No explicit HDR fallback marker",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\bHDR(?:10(?:\\+|Plus)?)?\\b"
+      }
+    },
+    {
+      "name": "Exclude Hulu (TRaSH exception)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\bHULU\\b"
+      }
+    }
+  ]
+}

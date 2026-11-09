@@ -1,0 +1,15 @@
+{
+  "name": "RU - Amateur Dubbing Penalty",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Explicit unofficial/amateur dubbing wording",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:неофициальн\\w*[ ._-]?дубляж|любительск\\w*[ ._-]?дубляж|(?<![A-Za-z0-9])(?:FAN[ ._-]?DUB(?:BED|BING)?|AMATEUR[ ._-]?DUB(?:BED|BING)?)(?![A-Za-z0-9]))"
+      }
+    }
+  ]
+}

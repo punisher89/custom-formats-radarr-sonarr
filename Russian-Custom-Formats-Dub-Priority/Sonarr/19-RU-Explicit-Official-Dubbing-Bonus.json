@@ -1,0 +1,15 @@
+{
+  "name": "RU - Explicit Official Dubbing Bonus",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Explicit official/licensed dubbing wording",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)(?:официальн\\w*[ ._-]?дубляж|лицензионн\\w*[ ._-]?дубляж|(?<![A-Za-z0-9])OFFICIAL[ ._-]?(?:RUS(?:SIAN)?[ ._-]?)?DUB(?:BED|BING)?(?![A-Za-z0-9]))"
+      }
+    }
+  ]
+}
