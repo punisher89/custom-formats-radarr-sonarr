@@ -8,7 +8,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)(?<![A-Za-z0-9])DUB(?:BED|BING)?(?![A-Za-z0-9])|дубляж|дублированн\[А-Яа-яЁё]*"
+        "value": "(?i)(?<![A-Za-z0-9])DUB(?:BED|BING)?(?![A-Za-z0-9])|дубляж|дублированн[А-Яа-яЁё]*"
       }
     },
     {
