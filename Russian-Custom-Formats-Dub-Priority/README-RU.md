@@ -61,3 +61,20 @@ node --test tests/dub-priority.test.mjs
 
 ## План безопасного внедрения
 Проверить на десятках реальных заголовков из ваших индексаторов, сравнить результат в Interactive Search, затем пробовать на временных Quality Profiles. В `main` ничего не переносится автоматически.
+
+## Безопасная синхронизация оценок через API
+Сначала импортируйте **все** JSON Custom Formats через интерфейс, затем проверьте изменения в режиме просмотра.
+Скрипт обновляет **только баллы существующих CF** в **одном выбранном Quality Profile**; сами форматы, индексы, загрузки и другие профили не меняет.
+Отсутствие хотя бы одного формата блокирует применение, чтобы избежать частичного обновления.
+
+```bash
+# Windows PowerShell:
+$env:RADARR_API_KEY="YOUR_API_KEY"
+node scripts/sync-scores.mjs --service=radarr --url=http://localhost:7878 --profile="Мой 4K"
+node scripts/sync-scores.mjs --service=radarr --url=http://localhost:7878 --profile="Мой 4K" --apply
+
+# Для Sonarr используйте SONARR_API_KEY и --service=sonarr
+```
+
+**Без `--apply` скрипт ничего не записывает.** Не выкладывайте API-ключи в GitHub.
+Параметры Minimum CF Score, Upgrade Until Score, Quality Order и разрешения профиля необходимо настроить отдельно.

@@ -29,7 +29,10 @@ export function scores() {
 }
 export function matchesRegex(value, title) {
   const ignoreCase = value.startsWith('(?i)');
-  const regex = new RegExp(ignoreCase ? value.slice(4) : value, ignoreCase ? 'i' : '');
+  // Servarr uses .NET regex where \w includes Cyrillic; JS \w only includes ASCII.
+  const source = (ignoreCase ? value.slice(4) : value)
+    .replace(/\\w/g, '[\\p{L}\\p{N}_]');
+  const regex = new RegExp(source, ignoreCase ? 'iu' : 'u');
   return regex.test(title);
 }
 export function matchesFormat(cf, releaseTitle, languageId = 11) {

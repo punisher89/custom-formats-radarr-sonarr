@@ -68,3 +68,9 @@ test('single-voice AVO marker is recognized but never confused with dubbing', ()
   assert.equal(hit('RU - Translation - Single Voiceover', 'Film.RUS.AVO'), true);
   assert.equal(hit(dub, 'Film.RUS.AVO'), false);
 });
+
+test('Russian full-word markers are understood with Unicode .NET-style word matching', () => {
+  assert.equal(hit(audioGate, 'Film.русская.озвучка.WEB-DL', 1), true);
+  assert.equal(hit(dub, 'Film.профессиональный.дубляж', 11), true);
+  assert.equal(hit('RU - Explicit Official Dubbing Bonus', 'Film.официальный.дубляж'), true);
+});

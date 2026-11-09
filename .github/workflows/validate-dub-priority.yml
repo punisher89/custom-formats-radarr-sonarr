@@ -7,13 +7,15 @@ on:
     paths:
       - 'Russian-Custom-Formats-Dub-Priority/**'
       - 'scripts/validate-formats.mjs'
-      - 'tests/dub-priority.test.mjs'
+      - 'tests/**'
+      - 'scripts/sync-scores.mjs'
       - '.github/workflows/validate-dub-priority.yml'
   pull_request:
     paths:
       - 'Russian-Custom-Formats-Dub-Priority/**'
       - 'scripts/validate-formats.mjs'
-      - 'tests/dub-priority.test.mjs'
+      - 'tests/**'
+      - 'scripts/sync-scores.mjs'
       - '.github/workflows/validate-dub-priority.yml'
   workflow_dispatch:
 
@@ -31,4 +33,4 @@ jobs:
       - name: Validate JSON and CSV consistency
         run: node scripts/validate-formats.mjs
       - name: Regression tests
-        run: node --test tests/dub-priority.test.mjs
+        run: node --test tests/*.test.mjs
